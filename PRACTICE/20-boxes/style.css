@@ -1,0 +1,22 @@
+.container {
+    width: 53em;
+    height: 6em;
+    border: 0.15em solid blue;
+    justify-content: space-between;
+    display: flex;
+    padding: 2em 2em 0 2em;
+}
+
+.blue-filled, .purple-filled {
+    width: 4em;
+    height: 4em;
+    background: blue;
+}
+
+.purple-filled {
+    background: purple;
+}
+
+.color {
+    background: #e65715;
+}

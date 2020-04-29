@@ -1,0 +1,27 @@
+h1 {
+    font-size: 2em;
+    text-align: left;
+}
+
+.container {
+    
+    font-size: 1em;
+    font-weight: bold;
+    width: 25%;
+    border-left: 0.2em solid black;
+    border-right: 0.2em solid black;
+}
+
+.middle, .no-border-bottom, .no-border-top {
+    border-top: 0.2em solid black;
+    padding: 1em 1em 1em 1em;
+}
+
+.no-border-top {
+    border-top: none;
+}
+
+.middle:hover, .no-border-top:hover, .no-border-bottom:hover {
+    background: #e65715;
+    
+}
